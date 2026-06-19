@@ -11,13 +11,8 @@ __pycache__/
 *.sqlite
 
 # Virtual environments
-venv/
-env/
-ENV/
-env.bak/
-venv.bak/
 pipenv/
-Pipfile.lock  # اختر إبقاءه إذا أردت بيئة محددة، أو تجاهله إذا أردت إعادة إنشاءه
+Pipfile.lock  
 
 # Django
 *.log
