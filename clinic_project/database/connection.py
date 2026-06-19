@@ -46,7 +46,7 @@ class DatabasePool:
                 f"postgresql+psycopg2://{db_user}:{db_password}"
                 f"@{db_host}:{db_port}/{db_name}"
             )
-
+# إنشاء محرك SQLAlchemy مع إعدادات التجمع المتقدمة  
             self._engine = create_engine(
                 db_url,
                 poolclass=QueuePool,
